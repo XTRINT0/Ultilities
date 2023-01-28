@@ -50,7 +50,7 @@ local function Move()
 				if canSeeTarget(v.Character,200) then
 					--ReboundMoving:Stop()
 					game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):TakeDamage(100)
-					firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, {"You died to a Caked Face","Cake face would like to Kiss you","Well...","He kissed you..","And cake Flushed you out to your Death","To avoid cake face, Hide anywhere besides any specific hiding spots","Beware of this!"})
+					firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, {"You died to... Neko Seek?","Goofy a** entity","Please wish to god you never die to this B**** again"})
 					for i,v in pairs(entity:GetDescendants()) do
 						if v:IsA("Sound") then
 							v:Stop()
